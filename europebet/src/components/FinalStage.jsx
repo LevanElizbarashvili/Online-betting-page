@@ -38,6 +38,61 @@ export default function FinalStage() {
           </div>
         </div>
       </div>
+      <h4 className="travel-header">მოიგე საგზური 30 აპრილის ტურნირებზე</h4>
+      <div className="travel">
+        <div className="travel-info">
+          <div>
+            <h5>„Holdem Grinders”</h5>
+            <p>C კატეგორიის 1 საგზური</p>
+          </div>
+          <img src="./src/assets/poker-item-1-ticket-icon.png"></img>
+        </div>
+        <div className="travel-info">
+          <div>
+            <h5>„“Cashgame Sharks””</h5>
+            <p>C კატეგორიის 1 საგზური</p>
+          </div>
+          <img src="./src/assets/poker-item-1-ticket-icon.png"></img>
+        </div>
+        <div className="travel-info">
+          <div>
+            <h5>„Holdem Grinders”</h5>
+            <p>C კატეგორიის 1 საგზური</p>
+          </div>
+          <img src="./src/assets/poker-item-1-ticket-icon.png"></img>
+        </div>
+        <div className="travel-info">
+          <div>
+            <h5>„The Festival in Malta, GTD”</h5>
+            <p>C კატეგორიის 1 საგზური</p>
+            <p>B კატეგორიის 1 საგზური</p>
+            <p>
+              *ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾
+              ბაი-ინის გადახდით.
+            </p>
+          </div>
+          <img src="./src/assets/poker-item-2-ticket-icon.png"></img>
+        </div>
+        <div className="travel-info">
+          <div>
+            <h5>“Cashgame Sharks”</h5>
+            <p>C კატეგორიის 1 საგზური</p>
+            <p>
+              *ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾
+              ბაი-ინის გადახდით.
+            </p>
+          </div>
+          <img src="./src/assets/poker-item-1-ticket-icon.png"></img>
+        </div>
+        <p className="travel-footer">
+          * თუ მოთამაშე მოიგებს ბეჭედს ორჯერ ან მეტჯერ, ის The Lord of the Rings
+          ტურნირზემოხვდება ბეჭდების შესაბამისი რაოდენობის სტეკით
+        </p>
+        <p className="travel-footer">
+          *ტურნირში მონაწილეობის მიღება შეუძლია ნებისმიერ მსურველს 165₾-იანი
+          ბაი-ინის გადახდით.
+        </p>
+      </div>
     </div>
   );
 }

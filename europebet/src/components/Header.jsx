@@ -3,12 +3,14 @@ import React from "react";
 export default function Header() {
   return (
     <div className="header">
-      <div className="logo-signin-div">
+      <div className="logo-buttons">
         <div className="orange-dot"></div>
         <button className="signup-btn">Sign up</button>
         <button className="signin-btn">Sign in</button>
       </div>
-      <div className="header-img"></div>
+      <div className="header-banner">
+        <img src="./src/assets/banner.jpeg"></img>
+      </div>
       <div>
         <div className="header-info">
           <p className="info-1">სლოტები</p>
