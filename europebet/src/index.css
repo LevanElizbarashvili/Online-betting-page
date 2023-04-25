@@ -2,6 +2,8 @@ body {
   padding: 0;
   background-color: #1C1D1E;
   width: 90%;
+  max-width: 940px;
+  min-width: 320px;
   margin: 0 auto;
   color: #ffffff;
   font-family: "Helvetica Neue", sans-serif;
@@ -219,6 +221,9 @@ nav {
   margin-top: 40px;
   text-align: center;
   margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 0;
 }
 
 nav button {
@@ -226,6 +231,7 @@ nav button {
   color: #ffffff;
   border: none;
   padding: 7px 10px;
+  cursor: pointer;
 }
 
 nav p {
@@ -254,10 +260,22 @@ nav h4 {
 /* Cash Games */
 
 .main-body {
+  position: relative;
   text-align: center;
   background-color: #25292B;
   border-radius: 10px;
-  border-top: 1px solid #EF541C;
+}
+
+.main-body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .main-body h4 {
@@ -290,6 +308,24 @@ nav h4 {
   height: 350px;
   overflow-y: auto;
   margin-bottom: 15px;
+}
+
+.leaderboard-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+}
+
+.leaderboard-container::-webkit-scrollbar-track {
+  background: #2C3234;
+}
+
+.leaderboard-container::-webkit-scrollbar-thumb {
+  background: #F05A22;
+  border-radius: 10px;
+  width: 10px;
 }
 
 .main-body-1500 {
@@ -325,10 +361,22 @@ nav h4 {
   display: flex;
   justify-content: start;
   align-items: center;
-
+  position: relative;
   background-color: #2C3234;
   margin-bottom: 5px;
   border-radius: 10px;
+}
+
+.ticket::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 40%;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .ticket img {
@@ -357,7 +405,19 @@ nav h4 {
   text-align: center;
   border-radius: 10px;
   padding: 10px 30px;
-  border-top: #EF541C 1px soli;
+  position: relative;
+}
+
+.additional-anotation::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .additional-anotation p {
@@ -464,6 +524,22 @@ nav h4 {
   border-radius: 15px 15px 0 0;
 }
 
+.event-top {
+  position: relative;
+}
+
+.event-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #EF5A21;
+  border-radius: 5px;
+}
+
 .event-top p {
   border: #F05A22 solid 2px;
   width: 50%;
@@ -534,8 +610,21 @@ nav h4 {
   background-color: #2C3234;
   font-size: 14px;
   font-weight: bold;
-  padding: 15px 20px;
+  padding: 20px;
   border-radius: 10px;
+  position: relative;
+}
+
+.finalstage-banner-info-3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 40%;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .ticket-container-edit {
@@ -550,12 +639,36 @@ nav h4 {
   padding: 20px;
   border-radius: 10px 10px 0 0;
   margin: 0;
+  position: relative;
+}
+
+.ticket-container-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .ticket-edit {
   background-color: #1C1D1E;
   margin-bottom: 7px;
+}
 
+.ticket-edit::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #1C1D1E;
+  border-radius: 5px;
 }
 
 .travel-header {
@@ -564,6 +677,20 @@ nav h4 {
   border-radius: 10px 10px 0 0;
   margin: 0;
   text-align: center;
+  position: relative;
+  margin-top: 10px;
+}
+
+.travel-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  height: 4px;
+  background-color: #EF5A21;
+  border-radius: 5px;
 }
 
 .travel {
@@ -641,5 +768,34 @@ nav h4 {
   .res-item:nth-child(3) {
     grid-column: span 2;
   }
+
+
+
+}
+
+@media screen and (min-width: 850px) {
+
+  .res-finalstage {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+  }
+
+  .travel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  .res-grid-3 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    height: fit-content;
+  }
+
+
+
+
 
 }

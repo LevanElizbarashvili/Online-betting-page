@@ -27,9 +27,29 @@ export default function Cashgames() {
           <Leaderboard />
           <Leaderboard />
           <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
         </div>
         <TicketList />
         <div className="leaderboard-container">
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
           <Leaderboard />
           <Leaderboard />
           <Leaderboard />

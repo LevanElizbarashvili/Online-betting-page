@@ -51,6 +51,16 @@ export default function NewyearSeries() {
           <Leaderboard />
           <Leaderboard />
           <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
+          <Leaderboard />
         </div>
         <TicketList />
         <p className="anotation">
