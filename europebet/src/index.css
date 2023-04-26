@@ -169,7 +169,7 @@ body {
 
 .relatedPrCard h3 {
   position: absolute;
-  font-size: 11px;
+  font-size: 12px;
   margin-top: -70px;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -178,7 +178,7 @@ body {
 
 .relatedPrCard p {
   position: absolute;
-  font-size: 9px;
+  font-size: 11px;
   margin-top: -50px;
   padding: 10px 5px 10px 10px;
   width: 140px;
@@ -227,6 +227,7 @@ body {
   border-radius: 5px;
   padding: 7px 30px;
   margin-right: 60px;
+  font-size: 15px;
 }
 
 /* Main Nav */
@@ -259,6 +260,7 @@ nav h4 {
   background-color: #EF5A21;
   padding: 10px 16px;
   border-radius: 10px;
+
 }
 
 .rounded-right {
@@ -304,6 +306,7 @@ nav h4 {
   align-items: center;
   margin: 0;
   padding-top: 7px;
+  font-size: 13px;
 }
 
 .main-body h5 img {
@@ -478,6 +481,10 @@ nav h4 {
   padding-bottom: 20px;
 }
 
+.lead-back {
+  font-size: 12px;
+}
+
 .tournament-card-text p {
   margin: 0;
 }
@@ -588,6 +595,7 @@ nav h4 {
   border-radius: 5px;
   padding: 7px 20px;
   margin-bottom: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -647,12 +655,13 @@ nav h4 {
   margin-bottom: 7px;
 }
 
-.ticket-continer-header {
+.ticket-container-header {
   background-color: #2C3234;
   padding: 20px;
   border-radius: 10px 10px 0 0;
   margin: 0;
   position: relative;
+  font-size: 14px;
 }
 
 .ticket-container-header::before {
@@ -670,6 +679,7 @@ nav h4 {
 .ticket-edit {
   background-color: #1C1D1E;
   margin-bottom: 7px;
+  font-size: 13px;
 }
 
 .ticket-edit::before {
