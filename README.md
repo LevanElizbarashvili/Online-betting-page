@@ -1,5 +1,5 @@
 
-# Europebet 
+# Online betting page 
 
 Europebet design
 
